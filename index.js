@@ -174,10 +174,10 @@ const mockAnalysisData = [
     { time: 123, type: 'ERROR' },   // Pukulan pertama, error. (0:12)
 
     // Poin 2 (dimulai dari detik ke-25, ada reli singkat)
-    { time: 250, type: 'WINNER' },  // Reli selesai dengan winner. (0:31)
+    { time: 148, type: 'WINNER' },  
 
     // Poin 3 (dimulai dari detik ke-45)
-    { time: 300, type: 'WINNER' },  // Winner cepat. (0:52)
+    { time: 168, type: 'WINNER' },  // Winner cepat. (0:52)
 
     // Poin 4 (dimulai dari 1 menit 5 detik)
     { time: 350, type: 'ERROR' },   // Error setelah beberapa pukulan. (1:08)
