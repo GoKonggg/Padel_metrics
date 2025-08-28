@@ -171,7 +171,7 @@ backToAnalysisBtn.addEventListener('click', () => {
 // =========================================================================
 const mockAnalysisData = [
     // Poin 1 (dimulai dari detik ke-12)
-    { time: 203, type: 'ERROR' },   // Pukulan pertama, error. (0:12)
+    { time: 123, type: 'ERROR' },   // Pukulan pertama, error. (0:12)
 
     // Poin 2 (dimulai dari detik ke-25, ada reli singkat)
     { time: 250, type: 'WINNER' },  // Reli selesai dengan winner. (0:31)
