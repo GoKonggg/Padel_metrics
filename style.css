@@ -1,0 +1,62 @@
+body {
+            font-family: 'Inter', sans-serif;
+        }
+        #video-bg {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            transform: translateX(-50%) translateY(-50%);
+            filter: brightness(0.4);
+        }
+        .nav-tab.active {
+            background-color: #0284c7;
+            color: white;
+            box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+        }
+        .nav-tab.active p {
+             color: #e0f2fe;
+        }
+        .fade-in { animation: fadeIn 0.5s ease-in-out forwards; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .chart-glow {
+            box-shadow: 0 0 40px rgba(14, 165, 233, 0.3);
+            border-radius: 50%;
+        }
+        .card-shadow {
+            box-shadow: 0 10px 15px -3px rgba(14, 165, 233, 0.05), 0 4px 6px -4px rgba(14, 165, 233, 0.05);
+        }
+
+        #login-view {
+    background-image: url('./ASSET/Padell.avif'); 
+    background-size: cover; /* Agar gambar memenuhi layar */
+    background-position: center; 
+    
+    min-height: 100vh; /* Memastikan div memenuhi tinggi layar */
+}
+
+/* Kita juga bisa tambahkan filter gelap seperti di video sebelumnya */
+#login-view::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Atur kegelapan di sini (0.6 = 60%) */
+    z-index: 1;
+}
+
+/* Pastikan konten login berada di atas lapisan filter gelap */
+#login-content {
+    position: relative;
+    z-index: 2;
+}
+    
