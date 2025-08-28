@@ -174,46 +174,46 @@ const mockAnalysisData = [
     { time: 100, type: 'ERROR' },   // Pukulan pertama, error. (0:12)
 
     // Poin 2 (dimulai dari detik ke-25, ada reli singkat)
-    { time: 148, type: 'WINNER' },  
+    { time: 139, type: 'WINNER' },  
 
     // Poin 3 (dimulai dari detik ke-45)
-    { time: 168, type: 'WINNER' },  // Winner cepat. (0:52)
+    { time: 162, type: 'WINNER' },  // Winner cepat. (0:52)
 
     // Poin 4 (dimulai dari 1 menit 5 detik)
-    { time: 200, type: 'ERROR' },   // Error setelah beberapa pukulan. (1:08)
+    { time: 180, type: 'ERROR' },   // Error setelah beberapa pukulan. (1:08)
     
     // Poin 5 (Reli panjang, dimulai dari 1 menit 20 detik)
-    { time: 228, type: 'WINNER' }, // Winner di menit 2:23 (143 detik)
+    { time: 215, type: 'WINNER' }, // Winner di menit 2:23 (143 detik)
     
     // Poin 6 
-    { time: 268, type: 'ERROR' },  // Error di menit 2:35 (155 detik)
+    { time: 255, type: 'ERROR' },  // Error di menit 2:35 (155 detik)
     
     // Poin 7
-    { time: 294, type: 'WINNER' }, // Winner di menit 3:01 (181 detik)
+    { time: 277, type: 'WINNER' }, // Winner di menit 3:01 (181 detik)
     
     // Poin 8
-    { time: 315, type: 'WINNER' }, // Winner di menit 3:24 (204 detik)
+    { time: 308, type: 'WINNER' }, // Winner di menit 3:24 (204 detik)
 
     // Poin 9
-    { time: 338, type: 'ERROR' },  // Error di menit 3:40 (220 detik)
+    { time: 330, type: 'ERROR' },  // Error di menit 3:40 (220 detik)
     
     // Poin 10
-    { time: 361, type: 'WINNER' }, // Winner di menit 4:05 (245 detik)
+    { time: 354, type: 'WINNER' }, // Winner di menit 4:05 (245 detik)
     
     // Poin 11
-    { time: 393, type: 'WINNER' }, // Winner di menit 4:21 (261 detik)
+    { time: 384, type: 'WINNER' }, // Winner di menit 4:21 (261 detik)
     
     // Poin 12
-    { time: 440, type: 'ERROR' },  // Error di menit 4:48 (288 detik)
+    { time: 427, type: 'ERROR' },  // Error di menit 4:48 (288 detik)
     
     // Poin 13
-    { time: 475, type: 'WINNER' }, // Winner di menit 5:05 (305 detik)
+    { time: 456, type: 'WINNER' }, // Winner di menit 5:05 (305 detik)
     
     // Poin 14
-    { time: 520, type: 'ERROR' },  // Error di menit 5:18 (318 detik)
+    { time: 494, type: 'ERROR' },  // Error di menit 5:18 (318 detik)
 
     // Poin 15
-    { time: 568, type: 'WINNER' }, // Winner di menit 5:40 (340 detik)
+    { time: 537, type: 'WINNER' }, // Winner di menit 5:40 (340 detik)
 ];
 
 
